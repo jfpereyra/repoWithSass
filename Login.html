@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Login</title>
+</head>
+<body>
+    <header class="header">
+        <img class="header__img" src="file:///D:/Repos/myfirstrepo/imagenes/logo_ejemplo.png">
+        <div class="header__menu">
+            <div class="header__menu--profile"> 
+                <img src="./imagenes/user-white.png" alt="Usuario">
+                <p>Perfil</p>
+            </div>
+            <ul>
+                <li> <a href="/">Mi Cuenta</a></li>
+                <li> <a href="/">Cerrar sesión</a></li>
+            </ul>
+        </div>
+    </header>
+    <section class="login">
+        <section class="login__container">
+            <h2>Inicia sesión</h2>
+            <form class="login__container--form">
+                <input class="input--loginform" type="email" placeholder="E-mail">
+                <input class="input--loginform" type="password" placeholder="Contraseña">
+                <button class="button--loginform" >Iniciar sesión</button>
+                <div class="login__container--rememberme">
+                    <label> 
+                        <input type="checkbox">Recuerdame
+                    </label>
+                    <a href="/">Olvidé mi contraseña</a>
+                </div>
+            </form>
+            <section class="login__container--socialmedia">
+                <div>
+                    <a href="/">Iniciar sesión con Google</a>
+                </div>
+            </section>
+            <section>
+                <p class="login__container--register">No tengo cuenta. <a href="/">Registrarme.</a></p>
+            </section>
+        </section>
+    </section>
+    <footer class="footer">
+        <a href="/">Términos y condiciones</a>
+        <a href="/">Póliticas de privacidad</a>
+        <a href="/">Centro de ayuda</a>
+    </footer>
+</body>
+</html>
